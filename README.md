@@ -10,4 +10,7 @@ Bash script for create MongoDB backups and send to AWS S3
 
 ## Usage
 First configure with AWS Cli and then run with:
-$ > bash mongodb.s3.backup.sH
+
+```
+  $ > bash mongodb.s3.backup.sh
+```
