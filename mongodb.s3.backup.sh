@@ -18,7 +18,7 @@ EXCLUDE_VARIABLE=""
 ## Create a for loop depending the collection array elements you don't want to include
 for c in ${MONGO_EXCLUDE_COLLECTION[@]}
 do
-  EXCLUDE_VARIABLE+="--excludeCollection=$c"
+  EXCLUDE_VARIABLE+=" --excludeCollection=$c"
 done
 
 ## Create Backup for the mongodb components you want
